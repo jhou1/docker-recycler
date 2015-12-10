@@ -1,0 +1,7 @@
+#!/bin/sh
+
+dir=$1
+
+rm -rf $dir/* $dir/.*
+
+exit 0
